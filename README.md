@@ -1,3 +1,9 @@
+# Duino Coin PC miner using Zamscript template
+
+Thanks to https://replit.com/@zameerlovesmath for providing the Zamscript template
+Thanks to https://github.com/revoxhere (revox) for the duino coin pc miner code
+Reach me at economicsfox@gmail.com for support, For duino coin related support, use https://duinocoin.com/ or the official Duino Coin github page.
+
 # Basic ZamScript syntax
 `write` is a function for displaying text in the console.
 
