@@ -342,6 +342,25 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "psutil"
+version = "5.9.4"
+description = "Cross-platform lib for process and system monitoring in Python."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.extras]
+test = ["ipaddress", "mock", "enum34", "pywin32", "wmi"]
+
+[[package]]
+name = "py-cpuinfo"
+version = "9.0.0"
+description = "Get CPU info with pure Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pycparser"
 version = "2.21"
 description = "C parser in Python"
@@ -364,6 +383,14 @@ description = "passive checker of Python programs"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
+
+[[package]]
+name = "pypresence"
+version = "4.2.1"
+description = "Discord RPC client written in Python"
+category = "main"
+optional = false
+python-versions = ">=3.5"
 
 [[package]]
 name = "pyseto"
@@ -588,7 +615,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "743efb038157db3e82c568d9d6cf9089f2c8e480de1bfd52089334f9c7737537"
+content-hash = "cc5f2ce3d7abd719c4e0a32b592dab9301d69426e3f1495c30533857fb5cf24a"
 
 [metadata.files]
 aiohttp = []
@@ -621,9 +648,12 @@ passlib = []
 platformdirs = []
 pluggy = []
 protobuf = []
+psutil = []
+py-cpuinfo = []
 pycparser = []
 pycryptodomex = []
 pyflakes = []
+pypresence = []
 pyseto = []
 python-lsp-jsonrpc = []
 pytoolconfig = []

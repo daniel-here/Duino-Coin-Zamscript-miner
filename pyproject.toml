@@ -11,6 +11,10 @@ replit = "^3.2.4"
 Flask = "^2.2.0"
 urllib3 = "^1.26.12"
 Cython = "^0.29.33"
+colorama = "^0.4.6"
+psutil = "^5.9.4"
+py-cpuinfo = "^9.0.0"
+pypresence = "^4.2.1"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
